@@ -1,0 +1,2 @@
+all:
+	gcc -Iinclude/  src/drawing.c src/main.c src/texture.c src/init.c src/callbacks.c src/scene.c src/animation.c src/engine.c src/camera.c src/render.c src/help.c -lSOIL -lobj -lopengl32 -lglu32 -lglut32 -lm -o jj181j.exe
